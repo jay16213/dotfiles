@@ -25,7 +25,11 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'dikiaap/minimalist'
-Plugin 'powerline/powerline'
+"Plugin 'powerline/powerline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'tpope/vim-fugitive'
 " Plugin 'nathanaelkane/vim-indent-guides'
 call vundle#end()
 filetype plugin indent on
@@ -55,5 +59,8 @@ set foldmethod=syntax
 "set foldmethod=indent
 set nofoldenable
 
+let g:airline_powerline_fonts = 1
+let g:airline_theme="powerlineish"
+" leg g:airline#extensions#branch#enabled = 1
 "set tags+=/usr/include/sys.tags
 
