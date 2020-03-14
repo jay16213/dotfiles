@@ -2,23 +2,15 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export TERM="xterm-256color"
-  export ZSH=/home/$USER/.oh-my-zsh
+export TERM="xterm-256color"
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="powerlevel9k/powerlevel9k"
+source $HOME/.zshrc_P9KGT
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir pyenv vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator ram time)
-
-POWERLEVEL9K_CONTEXT_DEFAULT_FOREGROUND='235'
-POWERLEVEL9K_CONTEXT_DEFAULT_BACKGROUND='075'
-POWERLEVEL9K_DIR_HOME_BACKGROUND='069'
-POWERLEVEL9K_DIR_HOME_SUBFOLDER_BACKGROUND='069'
-POWERLEVEL9K_DIR_DEFAULT_BACKGROUND='069'
-POWERLEVEL9K_RAM_BACKGROUND='243'
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
