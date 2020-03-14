@@ -1,6 +1,6 @@
 # Set username to consider a default context, which by default will not be shown.
 # https://github.com/bhilburn/powerlevel9k/blob/next/segments/context/README.md
-DEFAULT_USER='jay'
+DEFAULT_USER=$USER
 
 # Set POWERLEVEL9KGT background color, either 'light' or 'dark' (this should match the GNOME Terminal's theme).
 POWERLEVEL9KGT_BACKGROUND='dark'
@@ -72,7 +72,7 @@ then
     POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
     # https://github.com/bhilburn/powerlevel9k/tree/next#customizing-prompt-segments
     POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir_writable dir vcs)
-    POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator ram time)
+    POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator load ram time)
 
     # Set 'context' segment colors
     # https://github.com/bhilburn/powerlevel9k/blob/next/segments/context/README.md
