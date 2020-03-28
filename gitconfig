@@ -1,0 +1,14 @@
+[user]
+	# name = Your name
+	# email = Your email
+[alias]
+	linelog = log --oneline --decorate --graph
+	st = status
+[core]
+	autocrlf = false
+	eol = lf
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
