@@ -4,6 +4,7 @@
 [alias]
 	linelog = log --oneline --decorate --graph
 	st = status
+        co = checkout
 [core]
 	autocrlf = false
 	eol = lf
