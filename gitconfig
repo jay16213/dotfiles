@@ -2,7 +2,7 @@
 	# name = Your name
 	# email = Your email
 [alias]
-	linelog = log --oneline --decorate --graph
+	lg = log --oneline --decorate --graph
 	st = status
         co = checkout
 [core]
