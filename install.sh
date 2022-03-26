@@ -3,7 +3,7 @@
 sudo apt-get update
 
 # install dependencies
-sudo apt-get -y install git curl zsh
+sudo apt-get -y install git curl zsh fontconfig
 
 # install oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
