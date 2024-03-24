@@ -76,7 +76,4 @@ fi
 if [ $CODESPACES = false ]; then
     chsh -s /bin/zsh
     echo "Remember login again to reload default shell settings"
-else
-    # Reload zsh config
-    source $HOME/.zshrc
 fi
