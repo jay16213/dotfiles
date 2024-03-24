@@ -3,13 +3,13 @@ My dotfiles, including zsh, vim, and git
 
 ## Usage
 
-### Setup oh-my-zsh and powerlevel9k
-Use `install.sh` to install [oh-my-zsh](https://ohmyz.sh/) & powerlevel9k to your system, and it will replace your `.zshrc` if it is already exists (the original `.zshrc` will be renamed to `.zshrc-old`)
+### Setup zsh, oh-my-zsh and powerlevel10k
+Use `install.sh` to install [oh-my-zsh](https://ohmyz.sh/) and [powerlevel10k](https://github.com/romkatv/powerlevel10k) to your system, and it will replace your `.zshrc` if it is already exists (the original `.zshrc` will be renamed to `.zshrc.bak`)
 ```bash
 ./install.sh
 ```
 
-If you have no any powerline font installed, you can use the `-f` option to install [Ubuntu Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts)
+If you have no any powerline font installed, you can use the `-f` option to install Meslo Nerd Font, which is the recommended font by powerlevel10k
 
 ```bash
 ./install.sh -f
