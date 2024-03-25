@@ -21,3 +21,8 @@ install [Vundle.vim](https://github.com/VundleVim/Vundle.vim.git) and setup `.vi
 ```bash
 ./install-vimrc.sh
 ```
+
+## Screenshot
+
+### Zsh with powerlevel10k theme
+![powerlevel10k](powerlevel10k.png)
