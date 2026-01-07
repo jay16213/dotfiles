@@ -184,6 +184,7 @@ install_fonts() {
 
 change_default_shell() {
     # Do not change shell in Codespaces or if CODESPACES env var is set to 'true'
+    # See reference: https://docs.github.com/en/codespaces/troubleshooting/troubleshooting-personalization-for-codespaces#troubleshooting-dotfiles
     if [ "${CODESPACES:-}" = "true" ]; then
         echo "Detected Codespaces — skipping chsh"
         return
@@ -217,7 +218,8 @@ main() {
     backup_and_copy_dotfiles
     install_plugins_from_zshrc
     install_fonts
-    change_default_shell
+    # disable change_default_shell for now
+    # change_default_shell
     echo "\n Setup finished. Restart your terminal or log out and back in for changes to take effect."
 }
 
