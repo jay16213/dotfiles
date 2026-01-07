@@ -25,4 +25,4 @@ install [Vundle.vim](https://github.com/VundleVim/Vundle.vim.git) and setup `.vi
 ## Screenshot
 
 ### Zsh with powerlevel10k theme
-![powerlevel10k](powerlevel10k.png)
+![powerlevel10k](screenshot.png)
